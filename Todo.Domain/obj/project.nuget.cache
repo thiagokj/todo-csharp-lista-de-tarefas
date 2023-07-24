@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kY6sYNkc4p5Lpt3r18vvaQsGZboUUF52XF5Fhl+d1IUyjIDZYIxFVDjz6NggCT8YKXOgKar5GeYKlcteeAhuLg==",
+  "success": true,
+  "projectFilePath": "C:\\DEV\\CSharp\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Thi\\.nuget\\packages\\flunt\\1.0.3\\flunt.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
