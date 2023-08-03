@@ -3,9 +3,9 @@ using Flunt.Validations;
 using Todo.Domain.Commands.Contracts;
 
 namespace Todo.Domain.Commands;
-public class UpdateTodoAsUndoneCommand : Notifiable, ICommand
+public class UpdateTodoCommand : Notifiable, ICommand
 {
-    public UpdateTodoAsUndoneCommand(Guid id, string? title, string? user)
+    public UpdateTodoCommand(Guid id, string? title, string? user)
     {
         Id = id;
         Title = title;

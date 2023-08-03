@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "v0lPC9B5iexZ2g+phxC7qLNTY59oZ77BmN5lbGODWXEINJ0B107aGQwBsIOOz6lq8SC72vk+Rl418stYVOsV6Q==",
+  "dgSpecHash": "hNyXxUs5A5JcRsTLRStxfyQEptcqxAv0HeqSH8YcPTDp0Nq1o77IvjO6ckZ8TSdLAhtw5cArgCg4fRRGPG233A==",
   "success": true,
   "projectFilePath": "C:\\DEV\\CSharp\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thi\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\Thi\\.nuget\\packages\\flunt\\1.0.3\\flunt.1.0.3.nupkg.sha512",
     "C:\\Users\\Thi\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\Thi\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\Thi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

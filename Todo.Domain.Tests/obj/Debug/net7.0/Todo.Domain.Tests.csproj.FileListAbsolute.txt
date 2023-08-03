@@ -97,3 +97,7 @@ C:\DEV\CSharp\Todo\Todo.Domain.Tests\obj\Debug\net7.0\refint\Todo.Domain.Tests.d
 C:\DEV\CSharp\Todo\Todo.Domain.Tests\obj\Debug\net7.0\Todo.Domain.Tests.pdb
 C:\DEV\CSharp\Todo\Todo.Domain.Tests\obj\Debug\net7.0\Todo.Domain.Tests.genruntimeconfig.cache
 C:\DEV\CSharp\Todo\Todo.Domain.Tests\obj\Debug\net7.0\ref\Todo.Domain.Tests.dll
+C:\DEV\CSharp\Todo\Todo.Domain.Tests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\DEV\CSharp\Todo\Todo.Domain.Tests\bin\Debug\net7.0\Flunt.dll
+C:\DEV\CSharp\Todo\Todo.Domain.Tests\bin\Debug\net7.0\Todo.Domain.dll
+C:\DEV\CSharp\Todo\Todo.Domain.Tests\bin\Debug\net7.0\Todo.Domain.pdb

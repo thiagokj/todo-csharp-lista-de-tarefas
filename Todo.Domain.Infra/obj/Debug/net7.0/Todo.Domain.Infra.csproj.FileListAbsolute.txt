@@ -10,3 +10,8 @@ C:\DEV\CSharp\Todo\Todo.Domain.Infra\obj\Debug\net7.0\Todo.Domain.Infra.dll
 C:\DEV\CSharp\Todo\Todo.Domain.Infra\obj\Debug\net7.0\refint\Todo.Domain.Infra.dll
 C:\DEV\CSharp\Todo\Todo.Domain.Infra\obj\Debug\net7.0\Todo.Domain.Infra.pdb
 C:\DEV\CSharp\Todo\Todo.Domain.Infra\obj\Debug\net7.0\ref\Todo.Domain.Infra.dll
+C:\DEV\CSharp\Todo\Todo.Domain.Infra\bin\Debug\net7.0\Todo.Domain.Infra.runtimeconfig.json
+C:\DEV\CSharp\Todo\Todo.Domain.Infra\bin\Debug\net7.0\Todo.Domain.dll
+C:\DEV\CSharp\Todo\Todo.Domain.Infra\bin\Debug\net7.0\Todo.Domain.pdb
+C:\DEV\CSharp\Todo\Todo.Domain.Infra\obj\Debug\net7.0\Todo.Domain.Infra.csproj.CopyComplete
+C:\DEV\CSharp\Todo\Todo.Domain.Infra\obj\Debug\net7.0\Todo.Domain.Infra.genruntimeconfig.cache
