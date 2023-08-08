@@ -80,3 +80,4 @@ C:\DEV\CSharp\Todo\Todo.Domain.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3
 C:\DEV\CSharp\Todo\Todo.Domain.Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\DEV\CSharp\Todo\Todo.Domain.Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\DEV\CSharp\Todo\Todo.Domain.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\DEV\CSharp\Todo\Todo.Domain.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

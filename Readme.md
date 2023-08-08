@@ -564,3 +564,30 @@ const firebaseConfig = {
  appId: "1:32324sdfwq76:web:1f670d3aqweqwsd4a90ff1"
 };
 ```
+
+## Configurando autenticação com o Google
+
+Adicione o pacote ao projeto da API
+
+```csharp
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+```
+
+Agora configure a chamada na inicialização do App:
+
+```csharp
+builder.Services
+    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.Authority = "https://securetoken.google.com/ID-DO-APP-AQUI";
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = "https://securetoken.google.com/ID-DO-APP-AQUI",
+            ValidateAudience = true,
+            ValidAudience = "ID-DO-APP-AQUI",
+            ValidateLifetime = true
+        };
+    });
+```

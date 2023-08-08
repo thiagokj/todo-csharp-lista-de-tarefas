@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Todo.Domain.Handlers;
 using Todo.Domain.Infra.Contexts;
 using Todo.Domain.Infra.Repositories;
@@ -10,6 +12,21 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddTransient<ITodoRepository, TodoRepository>();
 builder.Services.AddTransient<TodoHandler, TodoHandler>();
+
+builder.Services
+    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.Authority = "https://securetoken.google.com/todo7196-f68c6";
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = "https://securetoken.google.com/todo7196-f68c6",
+            ValidateAudience = true,
+            ValidAudience = "todo7196-f68c6",
+            ValidateLifetime = true
+        };
+    });
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
